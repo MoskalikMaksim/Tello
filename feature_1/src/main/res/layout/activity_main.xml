@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/bg_color"
+    android:background="@color/main_color"
     tools:context=".MainActivity">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -22,6 +22,7 @@
             android:layout_alignParentBottom="true"
             android:fontFamily="@font/nunito_extrabold"
             android:paddingTop="45dp"
+            android:textSize="26pt"
             android:text="@string/Logo_name" />
     </RelativeLayout>
 
@@ -29,23 +30,24 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.5">
+
         <EditText
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentTop="true"
             android:id="@+id/et_Email"
             style="@style/input_log"
-            android:layout_width="220dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:hint="@string/Email_hint"/>
+            android:hint="@string/Email_hint"
+            android:inputType="textEmailAddress" />
         <EditText
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/et_Email"
             android:id="@+id/et_Pass"
             style="@style/input_log"
-            android:layout_width="220dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPassword"
@@ -58,8 +60,8 @@
         <Button
             android:id="@+id/but1223"
             style="@style/btn_log"
-            android:layout_width="220dp"
-            android:layout_height="35dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:background="@drawable/rounded_button"

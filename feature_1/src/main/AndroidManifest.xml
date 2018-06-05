@@ -4,7 +4,8 @@
 
     <application>
         <activity
-            android:name=".MainActivity">
+            android:name=".MainActivity"
+            android:theme="@style/MyTheme2">
             <intent-filter android:order="1">
                 <action android:name="android.intent.action.VIEW" />
 

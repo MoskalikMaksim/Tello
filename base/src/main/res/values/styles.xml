@@ -1,18 +1,17 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="MyTheme2" parent="android:Theme.Material">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:statusBarColor">@color/bg_color</item>
+        <item name="android:statusBarColor">@color/main_color</item>
     </style>
 
     <style name="Logo">
         <item name="android:fontFamily">@font/nunito_extrabold</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">20pt</item>
     </style>
 
     <style name="input_log">
@@ -21,7 +20,7 @@
     </style>
 
     <style name="btn_log">
-        <item name="android:textColor">@color/btn_color</item>
+        <item name="android:textColor">@color/main_color</item>
     </style>
 
     <style name="new_acc">
