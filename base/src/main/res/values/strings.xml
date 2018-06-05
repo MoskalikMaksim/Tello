@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Logo_name">TELLO</string>
+    <string name="Email_hint">Email</string>
+    <string name="Pass_hint">Password</string>
+    <string name="Btn_Log">Log in</string>
+    <string name="new_acc">You dont have an account? Sign up</string>
+</resources>
